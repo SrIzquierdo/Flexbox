@@ -1,0 +1,37 @@
+.contenedor{
+    display: flex;
+    width: 1000px;
+    height: 80px;
+    background-color: gray;
+    border: 1px black solid;
+}
+.contenido1{
+    background-color: blue;
+}
+.contenido2{
+    background-color: black;
+}
+.contenido3{
+    background-color: yellow;
+}
+.contenedor div{
+    width: 200px;
+}
+#Row1{
+    flex-grow: 0;
+}
+#Row2{
+    flex-grow: 1;
+}
+#Row3{
+    flex-grow: 4;
+}
+#flexRow{
+    flex-direction: row;
+}
+#flex{
+    height: 600px;
+    flex-flow: wrap-reverse;
+    justify-content: center;
+    align-content: space-between;
+}
